@@ -11,6 +11,8 @@ import { types } from '../../bus/swapi/types';
 // Workers
 import { fetchEntity } from './fetchEntity';
 
+// Code is refactored with all effect
+
 const tasks = [];
 
 function* watchFetchPlanetsAsync() {
