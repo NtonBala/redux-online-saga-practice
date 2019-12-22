@@ -26,7 +26,7 @@ export function* runExample() {
         if (task) {
             yield cancel(task);
             task = null;
-        }
+        } // comment if block and you'll get, how "takeEvery" could be implemented
 
         task = yield fork(fetchPlanets, action);
     }
