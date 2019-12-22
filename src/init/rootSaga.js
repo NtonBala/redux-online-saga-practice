@@ -2,7 +2,7 @@
 import { all } from 'redux-saga/effects';
 
 // Instruments
-import { runExample } from '../examples/8';
+import { runExample } from '../examples/9';
 
 export function* rootSaga() {
     try {
